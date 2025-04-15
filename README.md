@@ -12,13 +12,13 @@ you want to hurt yourself.
 * Note: vm-alpine-docker is an old version. I will put the list of
 changes at the end of this README.md
 
-	Required dependencies:
+Required dependencies:
 
 proot(recomended), git, wget, qemu-utils, qemu-common,
 qemu-system-x86_64-headless,
-alpine-virt-3.12.3-x86_64.iso,
+alpine-virt-3.12.3-x86_64.iso.
 
-	Installation:
+Installation:
 
 1. Download files from repository:
 
@@ -104,7 +104,11 @@ alpine:~# rc-update add docker
 Ctrl+ax: exit emulation
 Ctrl+ah: switch console QEMU
 
-10. Be happy if everything works XD
+Usage:
+
+```
+./run.sh
+```
 
 	Changes: 
 
